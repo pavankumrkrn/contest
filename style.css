@@ -5,8 +5,9 @@ body {
 }
 
 .card-main {
-    padding: 50px;
-    background-color: transparent !important
+    padding: 40px;
+    background-color: transparent !important;
+    border: transparent !important
 }
 
 .white {
@@ -15,5 +16,14 @@ body {
 
 a {
     color: aliceblue !important;
+}
+
+@media screen and (max-width : 1000px) {
+    nav {
+        background-color: aliceblue;
+    }
+    .nav-link, .navbar-brand {
+        color: black !important;
+    }
 }
 
