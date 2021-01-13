@@ -1,0 +1,19 @@
+body {
+    background-image: url(background.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card-main {
+    padding: 50px;
+    background-color: transparent !important
+}
+
+.white {
+    color: aliceblue;
+}
+
+a {
+    color: aliceblue !important;
+}
+
